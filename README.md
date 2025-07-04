@@ -32,7 +32,7 @@ Primero, clona el repositorio y navega al directorio del proyecto:
 
 ```bash
 git clone [https://github.com/GinoLongobucco/app-predictor-de-precios.git]
-cd tu-repositorio
+cd app-predictor-de-precios
 ```
 
 Luego, crea un entorno virtual (recomendado) e instala las dependencias:
