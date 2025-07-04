@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Predictor de Precios de Libros</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        max-width: 600px;
+        margin: 50px auto;
+      }
+      input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+      button {
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Predictor de Precios de Libros</h1>
+    <form action="/predict" method="post">
+      <label for="titulo">Título del Libro:</label><br />
+      <input type="text" id="titulo" name="titulo" required /><br />
+
+      <label for="calificacion">Calificación (1-5):</label><br />
+      <input
+        type="number"
+        id="calificacion"
+        name="calificacion"
+        min="1"
+        max="5"
+        step="1"
+        required
+      /><br /><br />
+
+      <button type="submit">Predecir Precio</button>
+    </form>
+  </body>
+</html>
