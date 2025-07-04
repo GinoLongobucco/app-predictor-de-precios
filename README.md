@@ -31,7 +31,7 @@ Sigue estos pasos para poner en marcha la aplicación en tu máquina local.
 Primero, clona el repositorio y navega al directorio del proyecto:
 
 ```bash
-git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+git clone [https://github.com/GinoLongobucco/app-predictor-de-precios.git]
 cd tu-repositorio
 ```
 
